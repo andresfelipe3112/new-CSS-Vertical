@@ -1,0 +1,289 @@
+body{
+    margin:0;
+    
+    font-family:Helvetica,Sans-serif;
+
+  }
+
+
+  #videodiv{
+  position: relative;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  width:100%;
+  height: 100%;
+  z-index: -1;
+  }
+
+  .rainbow-button1 {
+    width:35%;
+    height:60px;
+    background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+    border-radius:10px;
+    box-shadow: inset;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:6vw;
+    font-weight:bold;
+    color:white;  
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    display: flex;
+    bottom: 150vw;
+    left: 2vw;
+
+}
+
+.rainbow-button1{
+
+animation-name: primerbotton;
+animation-duration: 10s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+
+}
+
+@keyframes primerbotton{
+    0%{
+        left: 0px;
+    }
+
+    50%{
+
+        left:30px;
+    }  
+
+    100%{
+        left: 0px;
+    }
+
+}
+
+
+.rainbow-button2 {
+    width:35%;
+    height:60px;
+    background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+    border-radius:10px;
+    box-shadow: inset;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:6vw;
+    font-weight:bold;
+    color:white;  
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    display: flex;
+    bottom: 105vw;
+    left: 2vw;
+
+}
+.rainbow-button2{
+
+    animation-name: segundobotton;
+    animation-duration: 15s;
+    animation-timing-function:ease-in-out ;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes segundobotton{
+        0%{
+            left: 0px;
+        }
+    
+        50%{
+    
+            left:15px;
+        }  
+    
+        100%{
+            left: 0px;
+        }
+    
+    }
+.rainbow-button3 {
+    width:35%;
+    height:60px;
+    background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+    border-radius:10px;
+    box-shadow: inset;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:6vw;
+    font-weight:bold;
+    color:white;  
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    display: flex;
+    bottom: 55vw;
+    left: 2vw;
+
+
+}
+
+.rainbow-button3{
+
+    animation-name: tercerbotton;
+    animation-duration: 8s;
+    animation-timing-function:ease-in ;
+    animation-iteration-count: infinite;
+    
+    }
+    
+    @keyframes tercerbotton{
+        0%{
+            left: 0px;
+        }
+    
+        50%{
+    
+            left:10px;
+        }  
+    
+        100%{
+            left: 0px;
+        }
+    
+    }
+.rainbow-button4 {
+    width:35%;
+    height:60px;
+    background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+    border-radius:10px;
+    box-shadow: inset;
+    align-items:center;
+    justify-content:center;
+    text-transform:uppercase;
+    font-size:6vw;
+    font-weight:bold;
+    color:white;  
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    display: flex;
+    bottom: 8vw;
+    left: 2vw;
+
+}
+
+  @media(min-height:812px){
+
+    div{
+
+        background:url( ./fondo\ xs.png);
+        background-size: 100%;
+    }
+
+    #videodiv{
+        position: relative;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 800px;
+        z-index: 3;
+      
+       
+       
+        }
+
+                  
+            .rainbow-button1 {
+              width:35%;
+              height:60px;
+              background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+              border-radius:10px;
+              box-shadow: inset;
+              align-items:center;
+              justify-content:center;
+              text-transform:uppercase;
+              font-size:6vw;
+              font-weight:bold;
+              color:white;  
+              position: absolute;
+              display: flex;
+              z-index: 3;
+              display: flex;
+              bottom: 170vw;
+              left: 2vw;
+          
+          }
+          
+          .rainbow-button2 {
+              width:35%;
+              height:60px;
+              background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+              border-radius:10px;
+              box-shadow: inset;
+              align-items:center;
+              justify-content:center;
+              text-transform:uppercase;
+              font-size:6vw;
+              font-weight:bold;
+              color:white;  
+              position: absolute;
+              display: flex;
+              z-index: 3;
+              display: flex;
+              bottom: 125vw;
+              left: 2vw;
+          
+          }
+          .rainbow-button3 {
+              width:35%;
+              height:60px;
+              background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+              border-radius:10px;
+              box-shadow: inset;
+              align-items:center;
+              justify-content:center;
+              text-transform:uppercase;
+              font-size:6vw;
+              font-weight:bold;
+              color:white;  
+              position: absolute;
+              display: flex;
+              z-index: 3;
+              display: flex;
+              bottom: 75vw;
+              left: 2vw;
+          
+          }
+          .rainbow-button4 {
+              width:35%;
+              height:60px;
+              background-image: linear-gradient(90deg, transparent 10%, #FFCF00  );
+              border-radius:10px;
+              box-shadow: inset;
+              align-items:center;
+              justify-content:center;
+              text-transform:uppercase;
+              font-size:6vw;
+              font-weight:bold;
+              color:white;  
+              position: absolute;
+              display: flex;
+              z-index: 3;
+              display: flex;
+              bottom: 28vw;
+              left: 2vw;
+          
+          }
+   
+  }
+
+
+
+  
+ 
+
+ 
+
